@@ -15,7 +15,8 @@
   <title>VitorADV</title>
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -41,7 +42,8 @@
             </span>
           </a>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="s-1"> </span>
             <span class="s-2"> </span>
             <span class="s-3"> </span>
@@ -78,7 +80,7 @@
       <div class="layout_padding-top layout_padding2-bottom">
         <div class="row">
           <div class="col-md-6">
-            <form action="mailto:anderson.augusto_silva@hotmail.com" method="post"enctype="text/plain">
+            <form action="https://api.staticforms.xyz/submit" method="post">
               <div class="contact_form-container">
                 <div class="heading_container">
                   <h2>
@@ -88,16 +90,16 @@
                 </div>
                 <div>
                   <div>
-                    <input type="text" placeholder="Nome">
+                    <input type="text" name="name" placeholder="Nome">
                   </div>
                   <div>
-                    <input type="text" placeholder="Número Telefone">
+                    <input type="text" name="phone" placeholder="Número Telefone">
                   </div>
                   <div>
-                    <input type="email" placeholder="Email">
+                    <input type="email"name="email" placeholder="Email">
                   </div>
                   <div class="">
-                    <input type="text" placeholder="Mensagem" class="message_input">
+                    <input type="text" name="message" placeholder="Mensagem" class="message_input">
                   </div>
                   <div class="mt-5">
                     <button type="submit">
@@ -108,7 +110,10 @@
 
               </div>
 
+              <input type="hidden" name="accessKey" value="da6742e2-0645-4d8d-96e5-dabf150d7dc5">
+              <input type="hidden" name="redirectTo" value="https://www.google.com.br/">
             </form>
+
           </div>
           <div class="col-md-5 offset-md-1">
             <div class="img-box">
@@ -133,15 +138,17 @@
               Notícias
             </h5>
           </div>
-          <form action="mailto:andinhogaloucura@hotmail.com" method="post"enctype="text/plain">
+          <form action="https://api.staticforms.xyz/submit" method="post">
             <div class="email_box">
-              <input type="text" id="email2" placeholder="Seu Email">
+              <input type="text" name="email" id="email2" placeholder="Seu Email">
             </div>
             <div>
-              <button>
+              <button type="submit">
                 Escrever
               </button>
             </div>
+            <input type="hidden" name="accessKey" value="da6742e2-0645-4d8d-96e5-dabf150d7dc5">
+            <input type="hidden" name="redirectTo" value="https://www.google.com.br/">
           </form>
         </div>
         <div class="info_social">
