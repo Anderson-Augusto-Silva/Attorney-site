@@ -721,12 +721,11 @@ a:focus {
   height: 60px;
   bottom: 40px;
   right: 40px;
-  background-color: #080808;
+  background-color: #111110;
   color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 1px 1px 2px #ebeb08;
   z-index: 1000;
 }
 
